@@ -1,0 +1,16 @@
+[
+  { "date": "2026-10-16", "mood": 6, "energy": 5, "sleepHours": 6.5, "tags": ["exercise", "work"], "entry": "Hit the gym before class for the first time in a week. Felt good after, but the afternoon dragged. Got through most of my to-do list." },
+  { "date": "2026-10-17", "mood": 7, "energy": 7, "sleepHours": 8, "tags": ["family", "cooking"], "entry": "Slept in. Called Mom for an hour and cooked dal and rice like she makes it. Felt really grounded today." },
+  { "date": "2026-10-18", "mood": 4, "energy": 4, "sleepHours": 7, "tags": ["procrastination", "phone", "anxiety"], "entry": "Sunday scaries. Spent almost 4 hours on my phone and didn't start the assignment due tomorrow. Annoyed at myself." },
+  { "date": "2026-10-19", "mood": 5, "energy": 4, "sleepHours": 5, "tags": ["deadline", "caffeine"], "entry": "Stayed up till 2am to finish the assignment. Three coffees to survive the day. Submitted it, but it isn't my best work." },
+  { "date": "2026-10-20", "mood": 3, "energy": 3, "sleepHours": 4.5, "tags": ["job-search", "rejection", "comparison"], "entry": "Got a rejection email from a company I really wanted. Skipped lunch and scrolled LinkedIn seeing everyone's offers. Felt like I'm behind." },
+  { "date": "2026-10-21", "mood": 6, "energy": 6, "sleepHours": 7, "tags": ["friends", "walk"], "entry": "Walked along the river with Priya and told her about the rejection. She's been through the same thing. Felt so much lighter after." },
+  { "date": "2026-10-22", "mood": 7, "energy": 8, "sleepHours": 7.5, "tags": ["productivity", "exercise"], "entry": "Did 2 hours of deep work before checking my phone and got more done than in the whole of Monday. Gym in the evening." },
+  { "date": "2026-10-23", "mood": 5, "energy": 5, "sleepHours": 6, "tags": ["boundaries", "overcommit"], "entry": "Said yes to helping a teammate debug, then to a club meeting, then to a call. Didn't touch my own work at all. Need to say no more." },
+  { "date": "2026-10-24", "mood": 8, "energy": 8, "sleepHours": 8.5, "tags": ["nature", "exercise", "cooking"], "entry": "Went hiking with phone on airplane mode. Meal-prepped for the week when I got back. Best day in a while." },
+  { "date": "2026-10-25", "mood": 5, "energy": 6, "sleepHours": 7, "tags": ["planning", "anxiety"], "entry": "Anxious about the week again, but this time I sat down and planned it out day by day. The anxiety went down once it was on paper." },
+  { "date": "2026-10-26", "mood": 6, "energy": 6, "sleepHours": 6, "tags": ["job-search"], "entry": "Sent two applications and did a mock interview. Stumbled on a system design question but the feedback was useful." },
+  { "date": "2026-10-27", "mood": 4, "energy": 3, "sleepHours": 5, "tags": ["phone", "tired"], "entry": "Doomscrolled in bed until 1:30am. Exhausted all day, skipped the gym. Same pattern as last Sunday." },
+  { "date": "2026-10-28", "mood": 6, "energy": 7, "sleepHours": 6.5, "tags": ["hackathon", "friends"], "entry": "Formed a hackathon team! Excited but nervous that I'm not as strong as the others. We have a good idea though." },
+  { "date": "2026-10-29", "mood": 7, "energy": 7, "sleepHours": 7, "tags": ["hackathon", "flow", "skipped-meal"], "entry": "Built the first prototype and it actually works. Felt competent and in flow for hours. Forgot to eat dinner until 10pm." }
+]

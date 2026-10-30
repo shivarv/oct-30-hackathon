@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --bg: #f6f5f2;
+  --surface: #fcfcfb;
+  --border: #e4e2dc;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --ink-3: #85837d;
+  --accent: #2a78d6;
+  --accent-soft: #e6effb;
+  --muted-mark: #c9c7c0;
+  --good: #008300;
+  --bad: #c43c3b;
+  --warn-bg: #fdf3dc;
+  /* Diverging mood scale: red (awful) → gray (okay) → blue (great) */
+  --mood-1: #e34948;
+  --mood-2: #f2a3a2;
+  --mood-3: #d3d1ca;
+  --mood-4: #9dc2ee;
+  --mood-5: #2a78d6;
+  --sunny: #ffd84a;
+  --sunny-soft: #fff4c7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #121211;
+    --surface: #1a1a19;
+    --border: #2e2e2c;
+    --ink: #f0efec;
+    --ink-2: #c3c2b7;
+    --ink-3: #8f8e86;
+    --accent: #3987e5;
+    --accent-soft: #1d2a3b;
+    --muted-mark: #4a4945;
+    --good: #3fae3f;
+    --bad: #e66767;
+    --warn-bg: #3a2f14;
+    --mood-1: #e66767;
+    --mood-2: #8c4242;
+    --mood-3: #4a4945;
+    --mood-4: #2f5582;
+    --mood-5: #3987e5;
+    --sunny: #e0b52f;
+    --sunny-soft: #3a3320;
+  }
+}
+
+@keyframes draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes pop {
+  0% { transform: scale(0.8) rotate(-8deg); }
+  60% { transform: scale(1.15) rotate(4deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+.animate-draw { stroke-dasharray: 1; animation: draw 1.1s ease-out both; }
+.animate-fade { animation: fade-in 0.8s ease-out 0.4s both; }
+.animate-pop { animation: pop 0.45s ease-out both; transform-origin: center; }
+@media (prefers-reduced-motion: reduce) {
+  .animate-draw, .animate-fade, .animate-pop { animation: none; }
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-muted-mark: var(--muted-mark);
+  --color-good: var(--good);
+  --color-bad: var(--bad);
+  --color-warn-bg: var(--warn-bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
